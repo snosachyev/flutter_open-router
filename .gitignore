@@ -33,6 +33,7 @@ migrate_working_dir/
 .pub/
 .env
 /build/
+.metadata
 
 # Symbolication related
 app.*.symbols
