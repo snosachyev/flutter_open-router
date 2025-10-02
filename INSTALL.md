@@ -180,11 +180,15 @@ flutter run -d windows
 ```bash
 sudo apt-get install clang cmake ninja-build pkg-config libgtk-3-dev
 ```
-2. Включите поддержку Linux desktop:
+2. создаём пакуи файлы для Linux:
+```bash
+flutter create --platforms=linux .
+```
+3. Включите поддержку Linux desktop:
 ```bash
 flutter config --enable-linux-desktop
 ```
-3. Запустите приложение:
+4. Запустите приложение:
 ```bash
 flutter run -d linux
 ```
